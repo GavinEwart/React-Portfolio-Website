@@ -1,0 +1,30 @@
+.about {
+    padding: 100px 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .section-label {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3.5rem;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+  }
+  

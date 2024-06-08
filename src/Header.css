@@ -1,0 +1,64 @@
+.header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile-container {
+    display: flex;
+    align-items: center;
+    transform: translateX(7in); /* Move the profile container 7 inches to the right */
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    transform: translateX(-6in); /* Move the nav links 6 inches to the left */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 4rem; /* Increase the spacing between the links */
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem; /* Increase the font size */
+    font-weight: bold; /* Make the font bold */
+    scroll-behavior: smooth;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
